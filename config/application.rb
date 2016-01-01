@@ -8,8 +8,8 @@ require "active_job/railtie"
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "action_view/railtie"
-require "sprockets/railtie"require 'neo4j/railtie'"
-
+require "sprockets/railtie"
+require "neo4j/railtie"
 require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
